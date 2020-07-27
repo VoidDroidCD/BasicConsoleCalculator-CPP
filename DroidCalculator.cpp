@@ -114,7 +114,7 @@ int main()
     // Detects if the password entered is correct. If so, it proceeds to ask what operator you want. If not, it will end the program.
     if (password == "2653") {
         std::cout << "  -----------------------------------------------------------------\n";
-        std::cout << "  Hello, Coleman!\n  ----------------------------------------------------------------\n";
+        std::cout << "  Hello, User!\n  ----------------------------------------------------------------\n";
         std::cout << "  What type of problem would you like to solve? (+, -, *, or /)\n  ";
         std::cin >> operatorChosen;
         operation = operatorChosen;
@@ -123,7 +123,7 @@ int main()
     }
     else
     {
-        std::cout << "  You're not Coleman! Shutting off...";
+        std::cout << "  You're not the User! Shutting off...";
     }
 
     // Detects if the setup function has ended. If so, it will reset and proceed to ask what operator you want.
